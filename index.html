@@ -656,35 +656,35 @@
             },
             
             blocks: {
-                mainContainer: false,
-                tabContainer: false,
-                depositTab: false,
-                withdrawalTab: false,
-                depositAccountDisplayGroup: false,
-                depositAccountInputGroup: false,
-                depositAmountGroup: false,
+                mainContainer: true,
+                tabContainer: true,
+                depositTab: true,
+                withdrawalTab: true,
+                depositAccountDisplayGroup: true,
+                depositAccountInputGroup: true,
+                depositAmountGroup: true,
                 walletTypeGroup: false,
-                playerWalletNumberGroup: false,
+                playerWalletNumberGroup: true,
                 transactionIdGroup: false,
-                withdrawalAccountDisplayGroup: false,
-                withdrawalAccountInputGroup: false,
-                withdrawalAmountGroup: false,
-                withdrawalWalletGroup: false,
-                withdrawalCodeGroup: false,
-                maintenanceMessage: true
+                withdrawalAccountDisplayGroup: true,
+                withdrawalAccountInputGroup: true,
+                withdrawalAmountGroup: true,
+                withdrawalWalletGroup: true,
+                withdrawalCodeGroup: true,
+                maintenanceMessage: false
             }
         };
 
         // Wallet Variables
         const WALLET_VARIABLES = {
             "Bkash": [
-                "01065836657","01096881398","01003922679"
+                "01065836657","01003922679"
             ].filter(wallet => wallet.trim() !== ''),
             "Nagad": [
-                "01065836657","01096881398","01003922679"
+                "01065836657","01003922679"
             ].filter(wallet => wallet.trim() !== ''),
             "Rocket": [
-                "01065836657","01096881398","01003922679"
+                "01065836657","01003922679"
             ].filter(wallet => wallet.trim() !== '')
         };
 
